@@ -1,0 +1,153 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    
+    background-color: floralwhite;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+nav ol{
+    padding-left: 700px;
+    display: flex;
+    justify-content: center;
+    
+}
+nav ol li{
+ list-style: none;
+ margin: 0px 25px;
+ padding: 30px 20px;
+}
+.left{
+   position: absolute;
+}
+.right{
+    
+    background-color: rgb(246 235 209);
+    }
+a{
+    font-family: cursive;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover
+{
+    background-color: black;
+    color: aliceblue;
+    font-style: italic;
+    padding: 15px 20px;
+    border-radius: 2cm;
+}
+a:link
+{
+    background-color: rgba(186, 170, 131, 0.673);
+    color: rgb(35, 33, 33);
+    padding: 15px 20px;
+    border-radius: 2cm;
+    border-color: rgb(100, 100, 192);
+}
+.got{
+    display: flex;
+    
+}
+pre{
+    padding: 200px 50px 300px 50px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 300;
+    font-size: xx-large;
+    animation: fa ease-in;
+    animation-timeline: view();
+    
+}
+@keyframes fa{
+    0%{
+        opacity: 1;
+        
+    }
+    
+    100%{
+        opacity: 0;
+        
+    }
+}
+div{
+}
+.abd{
+    padding: 0px 100px 0px 100px;
+    opacity: 1.1;
+    animation: fa ease-n;
+    animation-timeline: view()
+}
+.adu
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.aa
+{
+    flex-grow: 1;
+    padding: 0px 0px 150px 0px;
+}
+p{
+padding: 130px 100px 150px 50px;
+font-size: x-large;
+font-family: cursive;
+height: 2cm;
+
+}
+h1{
+    display: flex;
+    font-family: cursive;
+    text-shadow: 1cm;
+    margin: 50px 0px 50px 0px;
+    padding: 0px 0px 0px 20px;
+}
+.ab{
+    padding-top: 170px;
+}
+.git{
+    display: inline-block;
+    margin: 0% 20%;
+    padding: 10px 200px;
+   
+}
+article label{
+    justify-content: center;
+    font-family: cursive;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+
+}
+button{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 5px 0px;
+    padding: 5px 10px ;
+    border-radius: 10px;
+    background-color: slateblue;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.YOU
+{
+        padding: 20px 0px 20px 0px;
+}
+footer{
+    display: flex;
+    justify-content: right;
+    
+    margin: 0%;
+}
